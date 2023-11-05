@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+
+try:
+    result = a // b
+    print(result)
+except ZeroDivisionError as e:
+    print("Error Code:", e)
+except Exception as e:
+    print("An error occurred:", e)
